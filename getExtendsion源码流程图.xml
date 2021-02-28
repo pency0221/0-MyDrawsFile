@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-02-28T15:21:41.508Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.119 Safari/537.36" etag="T5qsM2BsENs0PzP6hw2n" version="14.4.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-02-28T15:25:31.323Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.119 Safari/537.36" etag="puRHX-aOLg8JMP3u2rA-" version="14.4.3" type="github" pages="2">
   <diagram id="pIubb97JJ8t77ti4gSsy" name="第 1 页">
-    <mxGraphModel dx="3630" dy="2258" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3281" dy="2065" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -173,7 +173,7 @@
             <mxPoint x="179.55000000000007" y="199.72000000000014" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vlUEu9jkklLHzf4rGS01-72" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shadow=0;fontFamily=Helvetica;" parent="1" source="vlUEu9jkklLHzf4rGS01-28" target="vlUEu9jkklLHzf4rGS01-29" edge="1">
+        <mxCell id="vlUEu9jkklLHzf4rGS01-72" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shadow=0;fontFamily=Helvetica;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="vlUEu9jkklLHzf4rGS01-28" target="vlUEu9jkklLHzf4rGS01-29" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="vlUEu9jkklLHzf4rGS01-28" value="读取配置信息：扩展名=扩展实现类全类名&lt;br&gt;" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=none;rounded=1;fontFamily=Helvetica;" parent="1" vertex="1">
@@ -194,7 +194,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="vlUEu9jkklLHzf4rGS01-29" value="Class.forName(全类名) 创建Class对象&amp;nbsp;&amp;nbsp;" style="whiteSpace=wrap;html=1;fillColor=none;rounded=1;fontFamily=Helvetica;" parent="1" vertex="1">
-          <mxGeometry x="79.5" y="356" width="221" height="28" as="geometry" />
+          <mxGeometry x="79.5" y="291" width="221" height="28" as="geometry" />
         </mxCell>
         <mxCell id="vlUEu9jkklLHzf4rGS01-44" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;" parent="1" source="vlUEu9jkklLHzf4rGS01-31" target="vlUEu9jkklLHzf4rGS01-41" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -210,15 +210,15 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="vlUEu9jkklLHzf4rGS01-31" value="&lt;span&gt;loadClass 时分类缓存&lt;/span&gt;" style="whiteSpace=wrap;html=1;fillColor=none;rounded=1;fontFamily=Helvetica;" parent="1" vertex="1">
-          <mxGeometry x="115" y="431" width="150" height="23" as="geometry" />
+          <mxGeometry x="115" y="366" width="150" height="23" as="geometry" />
         </mxCell>
         <mxCell id="vlUEu9jkklLHzf4rGS01-34" value="&lt;div style=&quot;font-size: 9.8pt;&quot;&gt;缓存到 cachedAdaptiveClass&lt;/div&gt;" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=none;rounded=1;fontFamily=Helvetica;" parent="1" vertex="1">
-          <mxGeometry x="-200" y="519.5" width="169.5" height="41" as="geometry" />
+          <mxGeometry x="-201" y="454.5" width="169.5" height="41" as="geometry" />
         </mxCell>
         <mxCell id="vlUEu9jkklLHzf4rGS01-35" value="&lt;div style=&quot;font-size: 9.8pt;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="endArrow=classic;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;" parent="1" source="vlUEu9jkklLHzf4rGS01-31" target="vlUEu9jkklLHzf4rGS01-34" edge="1">
           <mxGeometry x="0.9733" y="-36" width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="80" y="431" as="sourcePoint" />
-            <mxPoint x="130" y="381" as="targetPoint" />
+            <mxPoint x="79" y="366" as="sourcePoint" />
+            <mxPoint x="129" y="316" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -243,20 +243,20 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="vlUEu9jkklLHzf4rGS01-41" value="&lt;div style=&quot;font-size: 9.8pt;&quot;&gt;缓存到 cachedWrapperClasses&lt;/div&gt;" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=none;rounded=1;fontFamily=Helvetica;" parent="1" vertex="1">
-          <mxGeometry x="10" y="519.5" width="195" height="41" as="geometry" />
+          <mxGeometry x="17" y="454.5" width="195" height="41" as="geometry" />
         </mxCell>
         <mxCell id="vlUEu9jkklLHzf4rGS01-56" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="vlUEu9jkklLHzf4rGS01-55" target="vlUEu9jkklLHzf4rGS01-43" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="240" y="860" as="targetPoint" />
+            <mxPoint x="226" y="795" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="vlUEu9jkklLHzf4rGS01-43" value="&lt;div style=&quot;font-size: 9.8pt;&quot;&gt;&lt;div style=&quot;text-align: left; font-size: 9.8pt;&quot;&gt;&lt;span&gt;cachedActivates&lt;/span&gt;.put(name&lt;span&gt;, &lt;/span&gt;activate)&lt;span&gt;;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; font-size: 9.8pt;&quot;&gt;缓存activate信息到cachedActivates&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=none;rounded=1;fontFamily=Helvetica;" parent="1" vertex="1">
-          <mxGeometry x="112.74" y="768" width="259.5" height="42" as="geometry" />
+          <mxGeometry x="98.74" y="703" width="259.5" height="42" as="geometry" />
         </mxCell>
         <mxCell id="vlUEu9jkklLHzf4rGS01-46" value="" style="endArrow=classic;html=1;fontFamily=Helvetica;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="If1lTT5_V6VGzJyMEHjL-5" target="vlUEu9jkklLHzf4rGS01-55" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="242.5" y="648" as="sourcePoint" />
-            <mxPoint x="242.4949999999999" y="671.5" as="targetPoint" />
+            <mxPoint x="228.5" y="583" as="sourcePoint" />
+            <mxPoint x="228.4949999999999" y="606.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="vlUEu9jkklLHzf4rGS01-47" value="&lt;div style=&quot;font-size: 9.8pt;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;rounded=1;fontFamily=Helvetica;" parent="vlUEu9jkklLHzf4rGS01-46" vertex="1" connectable="0">
@@ -270,7 +270,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="vlUEu9jkklLHzf4rGS01-55" value="&lt;div style=&quot;font-size: 9.8pt;&quot;&gt;扩展名缓存 cachedNames&lt;span style=&quot;font-size: 9.8pt ; white-space: normal&quot;&gt;.put(clazz&lt;/span&gt;&lt;span style=&quot;font-size: 9.8pt ; white-space: normal&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;font-size: 9.8pt ; white-space: normal&quot;&gt;name)&lt;/span&gt;&lt;span style=&quot;font-size: 9.8pt ; white-space: normal&quot;&gt;; ？&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=none;labelBackgroundColor=none;rounded=1;fontFamily=Helvetica;" parent="1" vertex="1">
-          <mxGeometry x="100" y="670" width="291.87" height="40" as="geometry" />
+          <mxGeometry x="86" y="605" width="291.87" height="40" as="geometry" />
         </mxCell>
         <mxCell id="vlUEu9jkklLHzf4rGS01-61" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;" parent="1" source="vlUEu9jkklLHzf4rGS01-59" target="koePoUHD5Q5xmuLAa0Z8-51" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -305,13 +305,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="vlUEu9jkklLHzf4rGS01-73" value="&lt;div style=&quot;font-size: 9.8pt;&quot;&gt;Map&amp;lt;String&lt;span style=&quot;&quot;&gt;, &lt;/span&gt;Class&amp;lt;?&amp;gt;&amp;gt; extensionClasses = &lt;span style=&quot;&quot;&gt;new &lt;/span&gt;HashMap&amp;lt;String&lt;span style=&quot;&quot;&gt;, &lt;/span&gt;Class&amp;lt;?&amp;gt;&amp;gt;()&lt;span style=&quot;&quot;&gt;;&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=none;rounded=1;fontFamily=Helvetica;" parent="1" vertex="1">
-          <mxGeometry x="-563" y="330" width="481" height="45" as="geometry" />
+          <mxGeometry x="-563" y="326" width="481" height="45" as="geometry" />
         </mxCell>
         <mxCell id="vlUEu9jkklLHzf4rGS01-76" value="&lt;div style=&quot;font-size: 9.8pt;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;rounded=1;fontFamily=Helvetica;" parent="1" vertex="1">
           <mxGeometry x="-560" y="48" width="20" height="50" as="geometry" />
         </mxCell>
         <mxCell id="vlUEu9jkklLHzf4rGS01-86" value="&lt;span&gt;逐行&lt;/span&gt;&lt;span style=&quot;font-size: 13.0667px;&quot;&gt;loadClass&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;span&gt;加载处理所有class&amp;nbsp;&amp;nbsp;&lt;/span&gt;" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;fillColor=none;rounded=1;fontFamily=Helvetica;" parent="1" vertex="1">
-          <mxGeometry x="220" y="210" width="140" height="140" as="geometry" />
+          <mxGeometry x="231.24" y="151" width="140" height="140" as="geometry" />
         </mxCell>
         <mxCell id="vlUEu9jkklLHzf4rGS01-90" value="" style="ellipse;html=1;shape=endState;labelBackgroundColor=none;rounded=1;fontFamily=Helvetica;" parent="1" vertex="1">
           <mxGeometry x="-995.62" y="608" width="30" height="30" as="geometry" />
@@ -331,19 +331,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="If1lTT5_V6VGzJyMEHjL-5" value="其他（即不是最佳适配类也不是包装类）" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="175" y="600" width="135" height="39" as="geometry" />
+          <mxGeometry x="161" y="535" width="135" height="39" as="geometry" />
         </mxCell>
         <mxCell id="If1lTT5_V6VGzJyMEHjL-10" value="" style="endArrow=classic;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="vlUEu9jkklLHzf4rGS01-31" target="If1lTT5_V6VGzJyMEHjL-5">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="290" y="520" as="sourcePoint" />
-            <mxPoint x="340" y="470" as="targetPoint" />
+            <mxPoint x="289" y="455" as="sourcePoint" />
+            <mxPoint x="339" y="405" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="If1lTT5_V6VGzJyMEHjL-17" value="其他的主要是实现类上不带相关注解和带@Activate的" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="320" y="560" width="80" height="100" as="geometry" />
+          <mxGeometry x="297.87" y="490" width="80" height="100" as="geometry" />
         </mxCell>
         <mxCell id="If1lTT5_V6VGzJyMEHjL-18" value="cacheClasses中并没有缓存最佳适配类" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="-400" y="630" width="220" height="20" as="geometry" />
+          <mxGeometry x="-270" y="565" width="220" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
