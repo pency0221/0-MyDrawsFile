@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-02-28T16:02:50.811Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.119 Safari/537.36" etag="P-eWsWQj9biDOW0VW8Y4" version="14.4.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-03-01T08:31:14.072Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.119 Safari/537.36" etag="U6cQsUx1X1AZ3wqlL63T" version="14.4.3" type="github" pages="2">
   <diagram id="pIubb97JJ8t77ti4gSsy" name="第 1 页">
-    <mxGraphModel dx="3281" dy="2065" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3685" dy="2258" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -177,7 +177,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="vlUEu9jkklLHzf4rGS01-28" value="读取配置信息：扩展名=扩展实现类全类名&lt;br&gt;" style="whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=none;rounded=1;fontFamily=Helvetica;" parent="1" vertex="1">
-          <mxGeometry x="70" y="124" width="240" height="39" as="geometry" />
+          <mxGeometry x="70" y="120" width="240" height="43" as="geometry" />
         </mxCell>
         <mxCell id="vlUEu9jkklLHzf4rGS01-32" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;" parent="1" source="vlUEu9jkklLHzf4rGS01-29" target="vlUEu9jkklLHzf4rGS01-31" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -194,7 +194,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="vlUEu9jkklLHzf4rGS01-29" value="Class.forName(全类名) 创建Class对象&amp;nbsp;&amp;nbsp;" style="whiteSpace=wrap;html=1;fillColor=none;rounded=1;fontFamily=Helvetica;" parent="1" vertex="1">
-          <mxGeometry x="79.5" y="291" width="221" height="28" as="geometry" />
+          <mxGeometry x="79.5" y="291" width="221" height="39" as="geometry" />
         </mxCell>
         <mxCell id="vlUEu9jkklLHzf4rGS01-44" value="" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;" parent="1" source="vlUEu9jkklLHzf4rGS01-31" target="vlUEu9jkklLHzf4rGS01-41" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -330,19 +330,19 @@
             <mxPoint x="-1071.5" y="-95" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="If1lTT5_V6VGzJyMEHjL-5" value="其他（即不是最佳适配类也不是包装类）" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+        <mxCell id="If1lTT5_V6VGzJyMEHjL-5" value="其他（即不是最佳适配类也不是包装类）" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="161" y="535" width="135" height="39" as="geometry" />
         </mxCell>
-        <mxCell id="If1lTT5_V6VGzJyMEHjL-10" value="" style="endArrow=classic;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="vlUEu9jkklLHzf4rGS01-31" target="If1lTT5_V6VGzJyMEHjL-5">
+        <mxCell id="If1lTT5_V6VGzJyMEHjL-10" value="" style="endArrow=classic;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" parent="1" source="vlUEu9jkklLHzf4rGS01-31" target="If1lTT5_V6VGzJyMEHjL-5" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="289" y="455" as="sourcePoint" />
             <mxPoint x="339" y="405" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="If1lTT5_V6VGzJyMEHjL-17" value="其他的主要是实现类上不带相关注解和带@Activate的" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;rounded=0;" vertex="1" parent="1">
+        <mxCell id="If1lTT5_V6VGzJyMEHjL-17" value="其他的主要是实现类上不带相关注解和带@Activate的" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="297.87" y="490" width="80" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="If1lTT5_V6VGzJyMEHjL-18" value="cacheClasses中并没有缓存最佳适配类" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+        <mxCell id="If1lTT5_V6VGzJyMEHjL-18" value="cacheClasses中并没有缓存最佳适配类" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" parent="1" vertex="1">
           <mxGeometry x="-270" y="565" width="220" height="20" as="geometry" />
         </mxCell>
       </root>
